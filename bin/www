@@ -3,6 +3,7 @@ var debug = require('debug')('aricheck-com');
 var http = require('http');
 
 var config = require('../config');
+console.log(config);
 
 function normalizePort(val) {
     var port = parseInt(val, 10);
