@@ -1,6 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="aricheck-com">
     <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.6.10/angular-animate.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.6.10/angular-touch.js"></script>
+        <script type="text/javascript" src="https://code.angularjs.org/1.6.10/angular-route.js"></script>
 
+        <script src="/js/mainController.js"></script>
+        <script src="/js/controllers/homeController.js"></script>
+        <script src="/js/controllers/aboutController.js"></script>
     </head>
+    <body>
+        <div ng-view></div>
+    </body>
 </html>
